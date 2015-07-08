@@ -21,9 +21,10 @@
 
 .breadcrumbs__link {
   @include type--small;
-  color: black;
+  color: red;
   font-weight: 400;
   padding-top: 0;
+
 
   @include medium {
     padding-top: 0;

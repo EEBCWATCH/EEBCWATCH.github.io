@@ -98,4 +98,19 @@
   }
 
   // Your custom JavaScript goes here
+	
+	$(function () {
+        $('#js-news').ticker({
+            speed: 0.10,
+            htmlFeed: false,
+            fadeInSpeed: 600,
+            titleText: 'Latest News'
+        });
+    });
+ 
+	
+
+
+ 
+	
 })();
